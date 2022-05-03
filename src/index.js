@@ -13,6 +13,7 @@ function smoothScroll(event) {
     })
 }
 
+
 // Date countdown below
 
 const targetDate = new Date(2022, 5, 11).getTime(),

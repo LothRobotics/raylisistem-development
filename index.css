@@ -6,8 +6,11 @@
 	list-style: none;
 	font-weight: 700;
 	border-color: black !important;
+	box-sizing: border-box;
 }
 body {
+	margin: 0;
+	padding: 0;
 	font-size: 16px;
 	font-family: "Montserrat", sans-serif;
 	background-position: center center;
@@ -17,6 +20,37 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-attachment: fixed;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: transparent;
+	color: white;
+}
+.navbar-links ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+.navbar-links li{
+	list-style: none;
+}
+.navbar-links li a{
+	text-decoration: none;
+	color: white;
+	padding: 1rem;
+	display: block;
+}
+.toggle-button{
+	position: absolute;
+	top: .75rem;
+	right: 1rem;
+	display: none;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 30px;
+	height: 21px;
 }
 .wrapper {
 	width: 100%;
@@ -43,41 +77,13 @@ header {
 	align-self: flex-start;
 	background: linear-gradient(180deg, rgba(0,0,0,0.68531162464986) 0%, rgba(255, 255, 255, 0) 100%);
 }
-header img.lothlogo {
+.lothlogo {
 	position: relative;
 	float: left;
     height: 100px;
     width: auto;
 	transition: opacity 0.2s ease-in;
 }
-
-.navbar {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: white;
-}
-
-header nav.navbar ul {
-	position: absolute;
-	float: right;
-	right: 20px;
-	top: 0px;
-}
-header nav.navbar ul li {
-	display: block;
-	padding: 30px;
-	float: left;
-}
-header nav.navbar ul li a {
-	font-size: 1.25em;
-    color: #DBD8D8;
-	text-decoration: none;
-	font-weight: 100;
-	text-transform: uppercase;
-}
-
-
 div.yazi {
 	display: flex;
 	align-items: center;
