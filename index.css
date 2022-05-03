@@ -170,11 +170,20 @@ div#announcements {
 div#announcements div.announcementsBox {
 	border: solid 5px black;
 	border-radius: 2px;
-	color: white;
+	color: black;
+	text-align: left;
 	width: 75%;
 	padding: 20vh 0;
 	margin: auto;
 	margin-top: 20px;
+}
+
+div#announcements div.announcementsBox ul {
+	padding-left: 27.5px;
+}
+
+div#announcements div.announcementsBox ul li {
+	list-style: disc;
 }
 
 .bolum1 .kutu:nth-last-child(1) {
