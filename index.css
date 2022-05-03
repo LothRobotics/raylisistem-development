@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-weight: 700;
+	border-color: black !important;
+}
+body {
+	font-size: 16px;
+	font-family: "Montserrat", sans-serif;
+	background-position: center center;
+	background:	url(./images/background2.jpg) no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-attachment: fixed;
+}
+.wrapper {
+	width: 100%;
+}
+.banner {
+	width: 100%;
+	height: 100vh;
+	background-position: center center;
+	background:	url(./images/background.jpg) no-repeat;
+	background-size: cover;
+	position: relative;
+	box-sizing: border-box;
+	display: flex;
+    text-align: center;
+	justify-content: center;
+	align-items: center;
+	background-attachment: fixed;
+	z-index: 2;
+}
+header {
+	margin: 0 auto;
+	position: absolute;
+	width: 100%;
+	align-self: flex-start;
+	background: linear-gradient(180deg, rgba(0,0,0,0.68531162464986) 0%, rgba(255, 255, 255, 0) 100%);
+}
+header img.lothlogo {
+	position: relative;
+	float: left;
+    height: 100px;
+    width: auto;
+	transition: opacity 0.2s ease-in;
+}
+
+.navbar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+header nav.navbar ul {
+	position: absolute;
+	float: right;
+	right: 20px;
+	top: 0px;
+}
+header nav.navbar ul li {
+	display: block;
+	padding: 30px;
+	float: left;
+}
+header nav.navbar ul li a {
+	font-size: 1.25em;
+    color: #DBD8D8;
+	text-decoration: none;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+
+
+div.yazi {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: nowrap;
+
+	background: rgba(255, 255, 255, 0.8);
+	padding: 80px 80px;
+	border-radius: 2px;
+
+}
+
+section.bolum1 {
+	width: 100%;
+	height: 100vh;
+	z-index: 1;
+	padding: 100px 0;
+	text-align: center;
+	margin-bottom: -0.5em
+}
+.bolum1 h2 {
+	color: black;
+	font-size: 3em;
+	font-weight: 900;
+	line-height: 1em;
+	margin-bottom: 0.5em;
+}
+.bolum1 h2+p {
+	color: black;
+	font-size: 1.3em;
+	margin-bottom: 0.5em;
+}
+
+.container{
+	padding-top: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+
+
+
+p.colons {
+	align-self: center;
+	padding: 1vh 2vw 1vh 1.25vw;
+	font-size: 3.75em;
+	flex-shrink: 0;
+}
+
+div.basvuruContainer {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+a.basvuru {
+	background: none;
+	border: 5px solid black;
+	opacity: 1;
+	font-weight: bolder;
+	text-decoration: none;
+	color: black;
+	font-size: 1.5em;
+	font-weight: 700;
+	padding: 2vh 1.5%;
+	text-align: center;
+	float: left;
+	margin-top: -30px;
+	margin-bottom: 40px;
+	transition: all 0.2s ease;
+}
+
+
+
+div#about {
+	margin-top: 40px;
+}
+
+h2 {
+	color: black;
+}
+
+div#announcements {
+	margin-top: 40px;
+	
+}
+
+div#announcements div.announcementsBox {
+	border: solid 5px black;
+	border-radius: 2px;
+	color: white;
+	width: 75%;
+	padding: 20vh 0;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.bolum1 .kutu:nth-last-child(1) {
+	margin-right: 0;
+}
+
+.bolum1 .kutu h3{
+    margin: 20px 0;
+    color: black;
+    font-size: 6em;
+    font-weight: 700;
+        
+}
+.bolum1 .kutu p{
+    color:black;
+    font-size: 1.5em;
+    font-weight: 600;
+    padding: 0 30px 20px 30px;
+    line-height: 1.5em;
+}
+
+.countdown-timer {
+	position: relative;
+	top: -140px;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	left: 0%;
+}
+
+div.content {
+	position: relative;
+	top: -125px;
+	width: 125%;
+	height: 125%;
+	margin: auto;
+	left: -12%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+div.content h2.countdown-timer-title {
+	text-transform: uppercase;
+	position: absolute;
+	color: white;
+	top: -190px;
+	font-weight: 600;
+}
+
+div.content div.time {
+	position: absolute;
+	list-style: none;
+	top: -190px;
+	right: -1.175vw;
+	text-align: right;
+	font-weight: 900;
+}
+
+div.content div.alignleft {
+	text-align: left;
+	left: 7.8vw;
+}
+
+div.content div.time div {
+	padding: 4px;
+	color: white;
+	font-size: 2.5rem;
+	font-weight:900;
+}
+
+div.upperFooter {
+	display: flex;
+	margin-top: 100px;
+	justify-content: center;
+	text-align: center;
+}
+
+div.upperFooter ul li a {
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+}
+
+
+div.upperFooter ul li {
+	color: black;
+	font-weight: 600;
+	padding: 0.25vh;
+}
+
+.footerdiv {
+    background-color: rgb(19, 18, 18);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	justify-content: center;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    overflow-x: hidden;
+}
+
+.footertext {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+	font-weight: 500;
+    margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.footericon {
+    margin: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+.upperfooter {
+	text-decoration: none;
+	color: black;
+}
+
+.upperfooter:hover {
+	text-decoration: underline;
+}

@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+    
+}
+body {
+	font-size: 16px;
+	font-family: "Montserrat", sans-serif;
+    overflow: hidden;
+}
+.wrapper {
+	width: 100%;
+}
+.banner {
+	width: 100%;
+	height: 100vh;
+	background-position: center center;
+	background:	url(./images/background2.jpg) no-repeat;
+	background-size: cover;
+	position: relative;
+	box-sizing: border-box;
+	display: flex;
+    text-align: center;
+	justify-content: center;
+	align-items: center;
+	background-attachment: fixed;
+	z-index: 2;
+}
+header {
+	margin: 0 auto;
+	position: absolute;
+	width: 100%;
+	align-self: flex-start;
+    background: linear-gradient(180deg, rgba(0,0,0,0.68531162464986) 0%, rgba(255, 255, 255, 0) 100%);
+}
+header img.lothlogo {
+    height: 100px;
+    width: auto;
+    margin-left: -20px;
+	float: left;
+	transition: opacity 0.2s ease-in;
+}
+header img.lothlogo:hover {
+	opacity: 0.7;
+}
+
+header nav.menu ul {
+	position: absolute;
+	float: right;
+	right: 20px;
+	top: 0px;
+}
+header nav.menu ul li {
+	display: block;
+	padding: 30px;
+	float: left;
+}
+header nav.menu ul li a {
+	font-size: 1.25em;
+    color: #DBD8D8;
+	text-decoration: none;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+
+header nav.menu ul li a:hover {
+	color: white; 
+    transition: color 0.2s ease-in-out;
+}
+
+div.upperFooter {
+	display: flex;
+	margin-top: 40px;
+	justify-content: center;
+	text-align: center;
+}
+
+div.upperFooter ul li a {
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+}
+
+.footerdiv {
+    background-color: rgb(79, 79, 79);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	justify-content: center;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    overflow-x: hidden;
+}
+
+.footertext {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+	font-weight: 500;
+    margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.footericon {
+    margin: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+.container{
+	padding-top: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+.kutu {
+	flex-basis: 100px;
+	height: 100px;
+	line-height: 150%;
+	flex-shrink: 0;
+	flex-grow: 1;
+	background: gray;
+	text-align: center;
+	padding: 20px 0;
+	margin: 20px;
+	align-self: flex-start;
+	border-radius: 10px;
+}
+
+.bolum1 {
+	height: 100vh;
+	z-index: 1;
+	padding: 100px 0;
+	text-align: center;
+    position: absolute;
+    top: 50px;
+}
+.bolum1 h2 {
+	color: #474747;
+	font-size: 3em;
+	font-weight: 900;
+	line-height: 1em;
+	margin-bottom: 0.5em;
+    
+}
+.bolum1 h2+p {
+	color: #858585;
+	font-size: 1.3em;
+	margin-bottom: 0.5em;
+}
