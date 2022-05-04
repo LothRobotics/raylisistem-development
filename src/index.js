@@ -2,7 +2,7 @@ const comptStart = document.querySelector('.days-compt-start'), start = document
 
 // Smooth scroll stuff below
 
-document.querySelector('.aboutCompt').addEventListener('click', smoothScroll)
+//document.querySelector('.aboutCompt').addEventListener('click', smoothScroll)
 
 function smoothScroll(event) {
     event.preventDefault();
