@@ -13,6 +13,10 @@ function smoothScroll(event) {
     })
 }
 
+function list(){
+    console.log('miyaba')
+}
+
 // Date countdown below
 
 const targetDate = new Date(2022, 5, 11).getTime(),

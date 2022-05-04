@@ -229,24 +229,19 @@ div.content {
 	justify-content: center;
 }
 
-div.content h2.countdown-timer-title {
-	text-transform: uppercase;
-	position: absolute;
-	color: white;
-	top: -190px;
-}
+
 
 div.content div.time {
 	position: absolute;
 	list-style: none;
 	top: -190px;
-	right: -1.175vw;
+	right: -1.175%;
 	text-align: right;
 }
 
 div.content div.alignleft {
 	text-align: left;
-	left: 7.8vw;
+	left: 22.8%;
 }
 
 div.content div.time div {
