@@ -13,6 +13,9 @@ function smoothScroll(event) {
     })
 }
 
+function list(){
+    console.log('miyaba')
+}
 
 // Date countdown below
 
