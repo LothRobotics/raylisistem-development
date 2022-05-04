@@ -173,8 +173,7 @@ h2 {
 }
 
 div#announcements {
-	margin-top: 40px;
-	
+	margin-top: 40px;	
 }
 
 div#announcements div.announcementsBox {
@@ -199,7 +198,7 @@ div#announcements div.announcementsBox {
 
 .end {
 	text-align: left;
-	width: 100%;
+	width: 90%;
 	padding-top: 10px;
 	opacity: 0.8;
 }
@@ -246,7 +245,7 @@ div.content {
 div.content div.time {
 	position: absolute;
 	list-style: none;
-	top: -190px;
+	top: -185px;
 	right: -1.175%;
 	text-align: right;
 }

@@ -1,7 +1,3 @@
-* {
-    
-}
-
 
 div.yazi h1 {
     font-size: 6.25em;
@@ -42,7 +38,8 @@ h2 {
 
 div.basvuru-adimlari {
     margin: auto;
-    width: 30%;
+    margin-left: 31%;
+    width: 50%;
     text-align: left;
 }
 
