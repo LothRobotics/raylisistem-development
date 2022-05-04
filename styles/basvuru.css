@@ -68,6 +68,12 @@ div.upperFooter {
 
 @media (max-width: 500px) {
     div.yazi h1 {
-        font-size: 20vw;
+        font-size: 10vw;
     }
+}
+
+@media (max-width: 765px) {
+    .navbar.active ul li {
+		width: 104.25% !important;
+	}
 }

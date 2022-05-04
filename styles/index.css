@@ -6,6 +6,7 @@
 	font-weight: 900 !important;
 	border-color: black !important;
 	box-sizing: border-box;
+	
 }
 body {
 	font-size: 16px;
@@ -94,6 +95,7 @@ div.yazi {
 	background: rgba(255, 255, 255, 0.8);
     width: 45%;
 	height: 40%;
+	padding: 3vw;
 }
 
 section.bolum1 {
@@ -157,7 +159,9 @@ a.basvuru {
 
 
 div#about {
-	margin-top: 40px;
+    margin-top: 40px;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
 }
 
 h2 {
@@ -339,11 +343,11 @@ div.upperFooter {
 	}
 	div.yazi {
 		width: 90%;
-		height: 40%;
+		height: 35%;
 	}
 	.toggle-btn {
 		display: flex;
-		margin-top: 1.25%;
+		margin-top: 3.3%;
 	}
 
 	.navbar {
@@ -364,7 +368,7 @@ div.upperFooter {
 	.navbar.active ul li {
 		clear: both;
 		background-color: rgb(47, 44, 44);
-		width: 100vw;
+		width: 104.4%;
 
 	}
 
@@ -381,6 +385,7 @@ div.upperFooter {
 		padding-top: 12.5%;
 		padding-bottom: 12.5%;
 		height: fit-content;
+		width: 70%;
 	}
 	.yarismalogo {
 		width: 100%;
@@ -388,53 +393,79 @@ div.upperFooter {
 	}
 	.lothlogo {
 		position: absolute;
-		top: -1.25vh;
-		left: -7.75%;
+		top: 0vh;
+		left: -3%;
 	}
 }
 
 @media (max-width: 700px) {
 	div.content div.time div {
-		font-size: 5vw;
+		font-size: 4vw;
 	}
 	div.content {
 		top: -16.5vw;
+	}
+
+	.countdown-timer {
+		width: 80%;
+		height: 80%;
+	}
+
+	.content .alignleft {
+		margin-left: 6.5vw;
+	}
+
+	.content .time:not(.alignleft) {
+		margin-right: 6.5vw;
+	}
+
+	.content .time{
+		margin-top: 2.75vh;
+	}
+}
+
+@media (max-width: 650px) {
+	div.content div.time div {
+		font-size: 3.75vw;
+	}
+	.content .time{
+		margin-top: 3.5vh;
 	}
 }
 
 
 @media (max-width: 550px) {
 	div.content div.time div {
-		font-size: 4.5vw;
+		font-size: 3.5vw;
 	}
-	div.content {
-		top: -14vw;
+	.content .time{
+		margin-top: 4vh;
 	}
 }
 
 @media (max-width: 450px) {
 	div.content div.time div {
-		font-size: 4.25vw;
+		font-size: 3.25vw;
 	}
-	div.content {
-		top: -11vw;
-	}	
+	.content .time{
+		margin-top: 4.5vh;
+	}
 }
 
 @media (max-width: 350px) {
 	div.content div.time div {
-		font-size: 4.00vw;
+		font-size: 3.00vw;
 	}
-	div.content {
-		top: -9vw;
-	}	
+	.content .time{
+		margin-top: 4.55vh;
+	}
 }
 
 @media (max-width: 250px) {
 	div.content div.time div {
 		font-size: 3;
 	}
-	div.content {
-		top: -6vw;
+	.content .time{
+		margin-top: 4.6vh;
 	}	
 }
