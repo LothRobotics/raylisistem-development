@@ -3,7 +3,7 @@
 * {
 	margin: 0;
 	padding: 0;
-	font-weight: bold !important;
+	font-weight: 900 !important;
 	border-color: black !important;
 }
 body {
@@ -86,10 +86,9 @@ div.yazi {
 	align-items: center;
 	justify-content: center;
 	flex-wrap: nowrap;
-
 	background: rgba(255, 255, 255, 0.8);
-	padding: 80px 80px;
-
+    width: 45%;
+	height: 40%;
 }
 
 section.bolum1 {
@@ -298,4 +297,10 @@ section.bolum1 {
 
 div.upperFooter {
     padding-bottom: 12.5px !important;
+}
+
+@media (max-width: 1600px) {
+	div.yazi {
+		width: 725px;
+	}
 }
