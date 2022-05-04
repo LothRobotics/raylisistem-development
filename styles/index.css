@@ -394,7 +394,7 @@ div.upperFooter {
 	.lothlogo {
 		position: absolute;
 		top: 0vh;
-		left: -3%;
+		left: -5%;
 	}
 }
 
@@ -450,6 +450,10 @@ div.upperFooter {
 	.content .time{
 		margin-top: 4.5vh;
 	}
+	.lothlogo {
+		left: -7%;
+		max-width: 85%;
+	}
 }
 
 @media (max-width: 350px) {
@@ -458,6 +462,21 @@ div.upperFooter {
 	}
 	.content .time{
 		margin-top: 4.55vh;
+	}
+	.lothlogo {
+		position: absolute;
+		left: -5%;
+		max-width: 85%;
+		top: -1vh;
+	}
+}
+
+@media (max-width: 300px) {
+	.lothlogo {
+		position: absolute;
+		left: -5%;
+		max-width: 75%;
+		top: -1vh;
 	}
 }
 
@@ -468,4 +487,10 @@ div.upperFooter {
 	.content .time{
 		margin-top: 4.6vh;
 	}	
+	.lothlogo {
+		position: absolute;
+		left: -5%;
+		max-width: 70%;
+		top: -1vh;
+	}
 }
