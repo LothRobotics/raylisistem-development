@@ -40,6 +40,11 @@ h2 {
     margin: 50px auto !important;
 }
 
+div.basvuru-adimlari {
+    margin: auto;
+    width: 30%;
+    text-align: left;
+}
 
 
 div.basvuru-adimlari ol {
