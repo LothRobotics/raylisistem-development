@@ -1,0 +1,73 @@
+* {
+    
+}
+
+
+div.yazi h1 {
+    font-size: 6.25em;
+}
+
+
+a.basvuru2 {
+	background: none;
+	border: 5px solid black;
+	opacity: 1;
+	text-decoration: none;
+	color: black;
+	font-size: 1.5em;
+	padding: 2vh 2.5%;
+    margin-top: 60px;
+}
+
+a.basvuru2 b {
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+a:not(.footericon):not(.toggle-btn):not(.navlink) {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+a.underline-hover:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-weight: 900 !important;
+    margin: 50px auto !important;
+}
+
+
+
+div.basvuru-adimlari ol {
+    margin-top: 40px;
+}
+
+div.basvuru-adimlari ol li {
+    margin: 10px auto;
+}
+
+a.medium-anchor {
+    font-size: 1.25em;
+    font-weight: 600 !important;
+}
+
+
+section.bolum1 {
+    padding-bottom: 0;
+}
+
+div.upperFooter {
+    padding: 0;
+}
+
+
+
+@media (max-width: 500px) {
+    div.yazi h1 {
+        font-size: 20vw;
+    }
+}
