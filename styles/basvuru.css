@@ -1,10 +1,12 @@
+* {
+    
+}
+
+
 div.yazi h1 {
     font-size: 6.25em;
 }
 
-div.yazi {
-
-}
 
 a.basvuru2 {
 	background: none;
@@ -22,7 +24,7 @@ a.basvuru2 b {
     font-size: 1.5em;
 }
 
-a:not(.footericon) {
+a:not(.footericon):not(.toggle-btn):not(.navlink) {
     display: block;
     text-decoration: none;
     color: black;
@@ -38,11 +40,7 @@ h2 {
     margin: 50px auto !important;
 }
 
-div.basvuru-adimlari {
-    margin: auto;
-    width: 33%;
-    text-align: left;
-}
+
 
 div.basvuru-adimlari ol {
     margin-top: 40px;
@@ -64,4 +62,12 @@ section.bolum1 {
 
 div.upperFooter {
     padding: 0;
+}
+
+
+
+@media (max-width: 500px) {
+    div.yazi h1 {
+        font-size: 20vw;
+    }
 }

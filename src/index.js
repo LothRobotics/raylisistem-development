@@ -1,21 +1,17 @@
-const comptStart = document.querySelector('.days-compt-start'), start = document.querySelector('.days-compt')
+const comptStart = document.querySelector('.days-compt-start'), start = document.querySelector('.days-compt'),
+toggleBtn = document.querySelector('.toggle-btn'),
+navBar = document.querySelector('.navbar');
 
-// Smooth scroll stuff below
 
-//document.querySelector('.aboutCompt').addEventListener('click', smoothScroll)
+// toggle btn
 
-function smoothScroll(event) {
-    event.preventDefault();
-    const targetId = event.currentTarget.getAttribute('href')==='#' ? 'header' : event.currentTarget.getAttribute('href');
-    document.querySelector(targetId).scrollIntoView({
-        behavior: "smooth",
-        block: "start",
-    })
-}
+toggleBtn.addEventListener('click', () => {
+    navBar.classList.toggle('active');
+})
 
-function list(){
-    console.log('miyaba')
-}
+
+
+
 
 // Date countdown below
 
