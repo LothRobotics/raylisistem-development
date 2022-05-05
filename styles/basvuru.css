@@ -16,7 +16,6 @@ a.basvuru2 {
 }
 
 a.basvuru2 b {
-    font-weight: 900;
     font-size: 1.5em;
 }
 
@@ -24,7 +23,6 @@ a:not(.footericon):not(.toggle-btn):not(.navlink) {
     display: block;
     text-decoration: none;
     color: black;
-    font-weight: 700;
 }
 
 a.underline-hover:hover {
@@ -32,7 +30,6 @@ a.underline-hover:hover {
 }
 
 h2 {
-    font-weight: 900 !important;
     margin: 50px auto !important;
 }
 
@@ -54,7 +51,6 @@ div.basvuru-adimlari ol li {
 
 a.medium-anchor {
     font-size: 1.25em;
-    font-weight: 600 !important;
 }
 
 
